@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title></title>
+  <style>
+    * {
+      margin:0;
+      border:0;
+      padding:0;
+      font-size:1em;
+      font-weight:normal;
+      list-style:none;
+      text-decoration:none;
+      box-sizing:border-box;
+    }
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+    @font-face {
+      font-family: CambonBold;
+      src: url("Cambon-Bold.otf") format("opentype");
+    }
+  </style>
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/slideshow.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="page-wrapper">
+    <div id="page-menu">
+      <a class="menu-a" href="#"><h1 class="menu-h1">EVAN FREITAS</h1></a>
+      <ul class="menu-ul">
+        <li class="menu-li"><a class="menu-a" href="#work">WORK</a></li> 
+        <li class="menu-li"><a class="menu-a" href="#about">ABOUT</a></li> 
+      </ul>
+    </div>
+    <div id="loading-text"><span>Loading</span></div>
+    <div id="page-content"></div>
+    <div id="svg-wrapper"></div>
+  </div>
+  <script src="js/anime.min.js"></script>
+  <script src="js/PageManager.js"></script>
+  <script src="js/Slideshow.js"></script>
+  <script src="js/options.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

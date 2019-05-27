@@ -1,0 +1,58 @@
+#page-wrapper {
+  background-color:black;
+  color:white;
+  display:flex;
+  flex-direction:column;
+  height:100%;
+}
+
+#page-menu {
+  font-family:"Montserrat", sans-serif;
+  display:flex;
+  justify-content:space-between;
+  padding:1rem;
+}
+
+#page-content {
+  display:none;
+  font-family:"Montserrat", sans-serif;
+  font-size:1.5em;
+  flex-grow:1;
+  justify-content:center;
+  align-items:center;
+  background-color:#333;
+}
+
+#loading-text {
+  flex-grow:1;
+  font-family:"Montserrat", sans-serif;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.menu-h1 {
+  font-weight:700;
+  padding:1rem;
+}
+
+.menu-ul {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  padding:1rem;
+}
+
+.menu-li {
+  margin:0 1em;
+  font-size: 0.8rem;
+  font-weight: 400; 
+}
+
+.menu-a {
+  color:white;
+}
+
+#svg-wrapper {
+  flex-grow:1;
+}

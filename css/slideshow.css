@@ -1,0 +1,45 @@
+.slideshow-svg {
+  display:block;
+  width:100%;
+  height:100%;
+}
+
+svg .slide-group {
+  overflow: visible;
+  cursor:pointer;
+  user-select:none;
+}
+
+svg .index-text {
+  font-family: "Cambon-Bold", sans-serif;
+  font-size:12px;
+  transform: translate(0px, -2px);
+  stroke:white;
+  stroke-width:.2px;
+}
+
+svg .footer-text {
+  font-family: "Montserrat", sans-serif;
+  font-size:3px;
+  transform: translate(0px, 4px);
+  fill:#aaa;
+  font-style:italic;
+  font-weight:100;
+}
+
+svg .title-text {
+  font-family: "Cambon-Bold", sans-serif;
+  transform: translate(0px, 18px);
+  letter-spacing:.03em;
+  stroke:#f0f0f0;
+  stroke-width:.75px;
+  font-size:1rem;
+  text-anchor:middle;
+  fill:#fff;
+}
+
+@media only screen and (max-width: 800px) {
+ svg .title-line{
+    font-size:.75rem;
+  }
+}
