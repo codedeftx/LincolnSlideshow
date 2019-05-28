@@ -3,7 +3,7 @@ var slideshow_options = {
   'view_height' : 200,
   'slide_width' : '80px',
   'slide_height' : '100px',
-  'page_path' : '/slideshow/',
+  'slideshow_path' : '/slideshow/',
   'img_path' : '/img/',
   'slides' : [
     {

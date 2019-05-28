@@ -4,11 +4,6 @@ var elements = {
   'svg_wrapper' : document.getElementById('svg-wrapper'),
 }
 
-var pages = [ 'work', 'about' ]
-  .concat(slideshow_options.slides.map(function(x){
-    return slideshow_options.page_path + x.pagename.split('.html').shift();
-  }));
-
 var slideshow = new SlideShow( slideshow_options );
 var page_manager = new PageManager( elements, slideshow, pages );
 

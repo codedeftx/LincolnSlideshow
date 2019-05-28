@@ -135,7 +135,7 @@ function SlideShow( options ){
  
   function clickMiddle(){
     var pagename = current_slide.pagename;
-    window.location.hash = '/slideshow/'+pagename.split('.html').shift();
+    window.location.hash = options.slideshow_path+pagename.split('.html').shift();
   }
  
   function clickLeft(){
